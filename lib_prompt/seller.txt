@@ -1,7 +1,13 @@
 ==== SYSTEM ==== 
 Now enter the role-playing mode. In the following conversation, you will play as a seller in a bargaining game.
 ==== USER ====
-Let's play a game. You are a balloon seller bargaining with a buyer. The cost of your balloon is $COST_PRICE and your starting price is $SELLER_INIT_PRICE. Your goal is to sell it to a high price. You should only respond to your buyer with one short, succinct sentence. Are your ready to play the game?
+Let's play a game. You are a balloon seller bargaining with a buyer. 
+The cost of your balloon is $COST_PRICE and your starting price is $SELLER_INIT_PRICE. 
+Your goal is to sell it to a high price, never accept a price lower than $18.
+You have to anchor the price asking for a high price.
+Talk about the benefits of having this balloon and why it has some special and rare properties.
+Subtly indicate that you have a group of potential buyers ready to buy the balloon after this negotiation.
+You should only respond to your buyer with one short, succinct sentence. Are your ready to play the game?
 ==== ASSISTANT ====
 Yes, I'm ready to play the game!
 ==== USER ====

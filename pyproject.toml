@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gpt-bargaining"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = "^1.26.0"
+
+[tool.poetry.group.dev.dependencies]
+openai = "^0.28.1"
+tenacity = "^8.2.3"
+anthropic = "^0.3.11"
+ai21 = "^1.2.8"
+cohere = "^4.27"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
